@@ -1,0 +1,30 @@
+
+<script src="{{asset('panel/plugins/jquery/jquery.js')}}"></script>
+<script src="{{asset('panel/plugins/jqvmap/jquery.vmap.min.js')}}"></script>
+<script src="{{asset('panel/plugins/jquery-ui/jquery-ui.min.js')}}"></script>
+<script>$.widget.bridge('uibutton', $.ui.button)</script>
+<script src="{{asset('panel/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('panel/plugins/chart.js/Chart.min.js')}}"></script>
+<script src="{{asset('panel/plugins/sparklines/sparkline.js')}}"></script>
+<script src="{{asset('panel/plugins/jqvmap/jquery.vmap.min.js')}}"></script>
+<script src="{{asset('panel/plugins/jqvmap/maps/jquery.vmap.usa.js')}}"></script>
+<script src="{{asset('panel/plugins/jquery-knob/jquery.knob.min.js')}}"></script>
+<script src="{{asset('panel/plugins/moment/moment.min.js')}}"></script>
+<script src="{{asset('panel/plugins/daterangepicker/daterangepicker.js')}}"></script>
+<script src="{{asset('panel/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js')}}"></script>
+<script src="{{asset('panel/plugins/summernote/summernote-bs4.min.js')}}"></script>
+<script src="{{asset('panel/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js')}}"></script>
+<script src="{{asset('panel/dist/js/adminlte.js')}}"></script>
+<script src="{{asset('panel/dist/js/demo.js')}}"></script>
+<script src="{{asset('panel/dist/js/pages/dashboard.js')}}"></script>
+<script src="{{asset('panel/plugins/datatables/jquery.dataTables.min.js')}}"></script>
+<script src="{{asset('panel/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js')}}"></script>
+<script src="{{asset('panel/plugins/datatables-responsive/js/dataTables.responsive.min.js')}}"></script>
+<script src="{{asset('panel/plugins/datatables-responsive/js/responsive.bootstrap4.min.js')}}"></script>
+<script src="{{asset('panel/plugins/datatables-buttons/js/dataTables.buttons.min.js')}}"></script>
+<script src="{{asset('panel/plugins/datatables-buttons/js/buttons.bootstrap4.min.js')}}"></script>
+<script src="{{asset('panel/plugins/datatables-buttons/js/buttons.html5.min.js')}}"></script>
+<script src="{{asset('panel/plugins/datatables-buttons/js/buttons.print.min.js')}}"></script>
+<script src="{{asset('panel/plugins/datatables-buttons/js/buttons.colVis.min.js')}}"></script>
+<script src="{{asset('/panel/dist/js/jquery.toast.min.js')}}"></script>
+@yield('js')
